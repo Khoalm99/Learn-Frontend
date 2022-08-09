@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -14,27 +17,118 @@ body {
 
 header {
   padding: 12px 40px;
-  background: #000;
+  width: 100%;
+  background: black;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 900;
 }
+/* header:hover{
+  padding: 25px;
+  transition: all 0.5s;
+} */
+
 
 header .logo {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
 }
 header .logo span {
   font-size: 32px;
   font-weight: bold;
 }
 
-nav ul {
+nav .menu  {
+  font-size: auto;
+  font-style: italic;
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 16px;
+  gap: 30px;
+  
 }
+nav .menu li a {
+  text-decoration: none;
+  color: ghostwhite;
+  background: #07080B;
+}
+.navbar .animation{
+  position: absolute;
+  margin-left: -5px;
+  padding: 25px 30px;
+  opacity: 60%;
+  background-color: rgb(254, 148, 73);
+  border-radius: 8px;
+  transition: all .8s ease 0s;
+  align-items: center;
+}
+
+.navbar ul .menu_about:hover~.animation{
+  margin-left: 70px;
+  width: 100px;
+}
+.navbar ul .menu_skills:hover~.animation{
+  margin-left: 180px;
+  width: 90px;
+}
+.navbar ul .menu_projects:hover~.animation{
+  margin-left: 280px;
+  width: 120px;
+}
+.navbar ul .menu_contact:hover~.animation{
+  margin-left: 400px;
+  width: 50px;
+}
+
+.home{
+  background-image: url(Images/background2.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width              : 100%;
+  height             : 100vh;
+}
+.home .showcase {
+font-size: 30px;
+color: #fff;
+font-weight: 200;
+position: relative;
+left: 15%;
+top: 20%;
+}
+
+.about{
+  background-color: rgb(1, 1, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width              : 100%;
+  height             : 100vh;
+}
+  
+
+
 /* Header end */
+.scroll-up-btn{
+    position      : fixed;
+    height        : 45px;
+    width         : 42px;
+    border        : 1px solid #fff;
+    background    : #07080B;
+    right         : 30px;
+    bottom        : 10px;
+    text-align    : center;
+    line-height   : 45px;
+    color         : #fff;
+    z-index       : 9999;
+    font-size     : 30px;
+    border-radius : 6px;
+    cursor        : pointer;
+    opacity       : 0;
+    pointer-events: none;
+    transition    : all 0.3s ease;
+}

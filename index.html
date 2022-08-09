@@ -31,35 +31,45 @@
         </svg>
         <span>KHOA LE</span>
       </div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Contact us</li>
-          <li>About us</li>
-          <li>My skills</li>
-          <li>My porjects</li>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="menu_home"><a href="#home">Home</a></li>
+          <li class="menu_about"><a href="#about">About me</a></li>
+          <li class="menu_skills"><a href="#skills">My skills</a></li>
+          <li class="menu_projects"><a href="#projects">My projects</a></li>
+          <li class="menu_contact"><a href="#contact">Contact</a></li>
+          <div class="animation start-home"></div>
         </ul>
       </nav>
     </header>
-
+   
     <main>
-      <!-- Hero section -->
-      <section id="hero">
-        <img src="./Images/Avatar.jpg" alt="">
+      <!-- Home section -->
+      <section id="home" class="home" >
+        <div class="showcase">Hello, my name is</div>
+        <div><span class="typing-1"> </span>Le Minh Khoa</div>
       </section>
       
+      <!-- Contact -->
+      
+      
+      <!-- About me -->
+      <section id="about" class="about"></section>
+      
       <!-- My skills -->
-      <section id="skills"></section>
+      <section id="skills" class="skills"></section>
 
       <!-- My projects -->
-      <section id="projects"></section>
+      <section id="projects" class="projects"></section>
 
-      <!-- Contact us -->
-      <section id="contacts"></section>
+      <section id="contact" class="contact"></section>
+
     </main>
 
     <footer></footer>
 
+    
+    
     <script src="./index.js"></script>
   </body>
 </html>
