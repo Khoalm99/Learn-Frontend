@@ -42,6 +42,10 @@ header .logo span {
   font-weight: bold;
 }
 
+main {
+  position: relative;
+  top: 70px;
+}
 nav .menu  {
   font-size: auto;
   font-style: italic;
@@ -92,13 +96,56 @@ nav .menu li a {
   width              : 100%;
   height             : 100vh;
 }
-.home .showcase {
-font-size: 30px;
-color: #fff;
-font-weight: 200;
-position: relative;
-left: 15%;
-top: 20%;
+
+
+
+.home .text {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  position: relative;
+  top: 200px;
+  left: 20%;
+}
+.home .text-1 {
+  font-size: 50%;
+}
+
+.static {
+  text-align : center;
+  padding-top: 60px;
+}
+
+.static-text-orange{
+  color      : #6e6e70;
+  font-size  : 50px;
+  transform  : translateY(-10px);
+  opacity    : 25%;
+  padding-top: -20px;
+}
+
+.second-static-text-orange{
+  font-weight: 700;
+  font-size: 35px;
+  transform  : translateY(-65px);
+  padding-top: -20px;
+  color: #07080B;
+}
+
+.static-text-black{
+  color      : rgb(254, 148, 73);
+  font-size  : 50px;
+  transform  : translateY(-10px);
+  opacity    : 20%;
+  padding-top: -20px;
+}
+
+.second-static-text-black{
+  font-weight: 700;
+  font-size: 35px;
+  transform  : translateY(-65px);
+  padding-top: -20px;
+  color: whitesmoke;
 }
 
 .about{
@@ -111,13 +158,49 @@ top: 20%;
 }
 
 
+
+
+.skills{
+  background-color: rgb(11, 9, 10) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width              : 100%;
+  height             : 100vh;
+}
+
+.projects{
+  background-color: rgb(219, 127, 62);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width              : 100%;
+  height             : 100vh;
+}
+
+
+.contact{
+  background-color: rgb(11, 9, 10) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width              : 100%;
+  height             : 100vh;
+}
+
+
+
+
 footer {
   background-color: #07080B;
 }
 footer ul {
   color: #fff;
 }
-/* Header end */
+
+
+
+
 .scroll-up-btn{
     position      : fixed;
     height        : 45px;
