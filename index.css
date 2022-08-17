@@ -193,6 +193,8 @@ nav .menu li a {
 
 footer {
   background-color: #07080B;
+  position: relative;
+  top: 20px;
 }
 footer ul {
   color: #fff;
