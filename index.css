@@ -62,12 +62,13 @@ nav .menu li a {
 }
 .navbar .animation{
   position: absolute;
+  margin-top: 50px;
   margin-left: -5px;
-  padding: 25px 30px;
+  padding: 2px 30px;
   opacity: 60%;
   background-color: rgb(254, 148, 73);
   border-radius: 8px;
-  transition: all .8s ease 0s;
+  transition: all 1.5s ease 0s;
   align-items: center;
 }
 
