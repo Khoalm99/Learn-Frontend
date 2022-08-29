@@ -68,25 +68,21 @@ nav .menu li a {
   opacity: 60%;
   background-color: rgb(254, 148, 73);
   border-radius: 8px;
-  transition: all 1.5s ease 0s;
+  transition: all 0.8s ease 0s;
   align-items: center;
 }
 
 .navbar ul .menu_about:hover~.animation{
-  margin-left: 70px;
-  width: 100px;
+  margin-left: 90px;
 }
 .navbar ul .menu_skills:hover~.animation{
-  margin-left: 180px;
-  width: 90px;
+  margin-left: 190px;
 }
 .navbar ul .menu_projects:hover~.animation{
-  margin-left: 280px;
-  width: 120px;
+  margin-left: 290px;
 }
 .navbar ul .menu_contact:hover~.animation{
-  margin-left: 400px;
-  width: 50px;
+  margin-left: 410px;
 }
 
 .home{
